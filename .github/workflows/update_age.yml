@@ -3,7 +3,7 @@ name: Update Age
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '30 18 12 10 *' # 18:30 on 12th October. (UTC)
+    - cron:  '30 18 12 10 *' # 00:00 on 13th October. (IST)
 
 jobs:
   update_age:
