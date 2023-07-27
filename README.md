@@ -1,7 +1,7 @@
 <h1 align="left">Hi 👋 I'm Ved</h1>
 <h3 align="left">A passionate software engineer from India</h3>
 
-- 🔭 I’m currently working as Software Architect at [Tweeny](https://www.tweeny.in)
+- 🔭 I’m currently working as Software Engineer at [Tweeny](https://www.tweeny.in)
 
 - 🤝 I’m looking for help with my open-source library of Sanskrit Text [🕉️ Ancient Knowledge](https://www.ancientknowledge.in) (checkout the pinned repositories)
 
