@@ -8,7 +8,7 @@
 
 **🛠️ My Favorite Tools**
 
-<div style="display: flex; align-items: center; gap: 5px; margin-bottom: 5px;">
+<div style="display: flex; align-items: center; gap: 5px; margin-bottom: 5px; background: #f0f0f0; padding: 5px; border-radius: 5px;">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" style="height: 30px; background: #f0f0f0; padding: 5px; border-radius: 5px;" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" style="height: 30px; background: #f0f0f0; padding: 5px; border-radius: 5px;" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" style="height: 30px; background: #f0f0f0; padding: 5px; border-radius: 5px;" />
