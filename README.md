@@ -1,9 +1,9 @@
 
 ## Upraity.vedprakash("Software Engineer")
 
-**Hobby Projects, A Humble Invitation to Collaborate**
+**Personal Projects**
 
-[Ancient Knowledge](https://www.ancientknowledge.in) - Experience the richness of Sanskrit scriptures and Vedic culture.
+- Experience the richness of Sanskrit scriptures and Vedic culture at [Ancient Knowledge](https://www.ancientknowledge.in).
 
 ---
 
