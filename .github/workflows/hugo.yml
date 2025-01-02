@@ -51,7 +51,7 @@ jobs:
         run: |
           cd src
           hugo --minify
-          echo "https://www.vedupraity.in" > public/CNAME
+          echo "www.vedupraity.in" > public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
