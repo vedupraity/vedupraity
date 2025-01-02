@@ -1,0 +1,7 @@
+baseURL: https://www.vedupraity.in
+languageCode: 'en-us'
+title: 'vedupraity'
+params:
+  contact:
+    email: contact@vedupraity.in
+ignoreLogs: ['warning-goldmark-raw-html']

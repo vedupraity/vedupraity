@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container">
+    {{ partial "breadcrumb.html" . }}
+</div>
+<hr />
+<h1>{{ .Title }}</h1>
+<p>{{ .Description }}</p>
+<hr>
+<div>{{ .Content }}</div>
+{{ partial "wip.html" . }}
+{{ end }}

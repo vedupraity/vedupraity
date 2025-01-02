@@ -1,0 +1,10 @@
+<nav>
+    <ul>
+        <li><a href="{{ .Site.BaseURL }}"><strong>{{ .Site.Title }}</strong></a></li>
+    </ul>
+    <ul>
+        {{ range .Site.Sections }}
+        <li><a href="{{ .RelPermalink }}">{{ with .Params.shortTitle }}{{ .}}{{ else }}{{ .Title }}{{ end }}</a></li>
+        {{ end }}
+    </ul>
+</nav>

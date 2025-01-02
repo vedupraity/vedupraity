@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ .Content }}
+<div class="container">
+    {{ partial "breadcrumb.html" . }}
+</div>
+<hr />
+{{ range .Pages }}
+<article>
+    <header><a href="{{ .Permalink }}">{{ .Title }}</a></header>
+    {{ .Description }}
+</article>
+{{ end }}
+{{ end }}
