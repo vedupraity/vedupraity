@@ -40,8 +40,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Navigate to the source directory
-        run: cd src
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -50,6 +48,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
+          cd src
           ls -la
 
           hugo \
@@ -58,7 +57,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./src/public
 
   # Deployment job
   deploy:
