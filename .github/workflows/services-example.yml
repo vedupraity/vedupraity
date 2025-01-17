@@ -1,0 +1,45 @@
+name: "[Services] Example Workflow"
+
+on:
+  workflow_dispatch:
+    inputs:
+      foo:
+        description: "Example input variable"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare step
+        run: |
+          echo foo: ${{ github.event.inputs.foo }}
+
+          sleep 10s
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build step 1
+        run: |
+          sleep 5s
+
+          echo "Build step 1"
+
+      - name: Build step 2
+        run: |
+          sleep 5s
+
+          echo "Build step 2"
+
+  wrap-up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Finished
+        run: |
+          sleep 10s
+
+          echo "Finished"
